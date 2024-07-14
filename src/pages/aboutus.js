@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/aboutus.css'; // Make sure to create and import the CSS file
+import '../styles/aboutus.css'; 
 
 const logo = require('../assets/team-dynamics.jpg');
 

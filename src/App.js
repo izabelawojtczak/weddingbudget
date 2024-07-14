@@ -8,28 +8,6 @@ import Contact from './pages/contact';
 import MainBudget from './components/mainbudget';
 
 function App() {
-  const [isModalOpen, setIsModalOpen] = useState(false);
-  const [costs, setCosts] = useState([]);
-
-  const handleOpenModal = () => {
-    setIsModalOpen(true);
-  };
-
-  const handleCloseModal = () => {
-    setIsModalOpen(false);
-  };
-
-  const handleAddCost = (newCost) => {
-    setCosts([...costs, { ...newCost, status: 'Unpaid' }]);
-    setIsModalOpen(false);
-  };
-
-  const handleToggleStatus = (index) => {
-    const newCosts = [...costs];
-    newCosts[index].status = newCosts[index].status === 'Unpaid' ? 'Paid' : 'Unpaid';
-    setCosts(newCosts);
-  };
-
   return (
     <div id="root" style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
     <Menu />

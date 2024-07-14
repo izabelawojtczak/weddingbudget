@@ -3,7 +3,6 @@ import '../styles/costoverview.css';
 import Button from 'react-bootstrap/Button';
 
 function CostOverview({ costs, onToggleStatus, onDelete }) {
-  // Calculate the total of all costs
   const totalCost = costs.reduce((sum, cost) => sum + (cost.price * cost.quantity), 0);
 
   return (

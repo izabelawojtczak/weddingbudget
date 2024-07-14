@@ -6,7 +6,7 @@
   
   .about-content {
     display: flex;
-    justify-content: space-between; /* Space between text and image */
+    justify-content: space-between;
 
   }
   
