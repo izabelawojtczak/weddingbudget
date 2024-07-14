@@ -8,12 +8,6 @@ Welcome to the Wedding Budget Planner, a comprehensive tool designed to help you
 - [Features](#features)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-- [Components](#components)
-- [Responsive Design](#responsive-design)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Project Description
 
@@ -39,8 +33,3 @@ Ensure you have the following software installed on your system:
 - npm (Node Package Manager)
 - React
 
-### Installation
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/your-username/wedding-budget-planner.git
