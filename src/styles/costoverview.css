@@ -1,0 +1,38 @@
+.cost-overview {
+  width: 100%;
+}
+
+.cost-overview h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.cost-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.cost-table th, .cost-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.cost-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.cost-table tfoot {
+  font-weight: bold;
+}
+
+.cost-table button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.cost-table button:hover {
+  background-color: #f0f0f0;
+}

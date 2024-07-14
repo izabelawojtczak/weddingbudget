@@ -1,0 +1,15 @@
+/* CSS for the MainBudget component */
+.mainBudget {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 50px;
+}
+
+@media (max-width: 1295px) {
+    .mainBudget {
+      flex-wrap: wrap-reverse;
+    }
+  }
+

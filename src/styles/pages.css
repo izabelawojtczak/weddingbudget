@@ -1,0 +1,25 @@
+.about-us, .contact {
+  position: right;
+  background-color: #f9f9f9;
+  text-align: center;
+  padding: 200px;
+  margin: 50px;
+}
+
+  .about-us h2 {
+    margin-top: 0;
+  }
+  
+  .about-us p {
+    margin: 10px 0;
+  }
+
+  
+  .contact h2 {
+    margin-top: 0;
+  }
+  
+  .contact p {
+    margin: 10px 0;
+  }
+  

@@ -1,0 +1,15 @@
+.contact.contact {
+    position: right;
+    background-color: #f9f9f9;
+    text-align: left;
+    padding: 50px;
+    margin: 50px;
+    }
+    .contact.contact span {
+        font-weight: bold;
+    }
+
+    .contact a:hover {
+        text-decoration: underline;
+        cursor: pointer;
+      }
